@@ -18,7 +18,9 @@ Reconfigurable intelligent surfaces (RIS) are expected to play an important role
 
 -->
 
-# Simulation setup and structure
+# Dataset structure
+
+As shown in the figure
 
 If you have any problems with generating the figure, please contact [Yu Zhang](https://www.linkedin.com/in/yu-zhang-391275181/).
 
