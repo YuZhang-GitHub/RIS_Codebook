@@ -21,11 +21,23 @@ Reconfigurable intelligent surfaces (RIS) are expected to play an important role
 
 As shown in the figure below, we leverage [DeepMIMO](https://deepmimo.net/) dataset to generate the data used in this paper. To simulate the non-stationarity of the large surface, we create four _geographically distributed_ reflecting surfaces with each of them adopts a 64-element ULA. These surfaces maintain a distance of 1 meter between each other, and are aligned along the y-axis in the ["O1_60"](https://deepmimo.net/scenarios/o1-scenario/) scenario. You can download the dataset in this link.
 
+![Figure](https://github.com/YuZhang-GitHub/RIS_Codebook/blob/master/deep_mimo_O1_60_distributed_LIS.png)
+
 # Simulation structure
 
 As detailed described in the paper, we propose a multi-level RIS codebook design architecture.
 
-![Figure](https://github.com/YuZhang-GitHub/RIS_Codebook/blob/master/deep_mimo_O1_60_distributed_LIS.png)
+![Figure](https://github.com/YuZhang-GitHub/RIS_Codebook/blob/master/RISs.png)
+
+Each of the folder corresponds to one RIS, comprising of two subarrays. A two-level learning is based on each folder
+- Step 1: Learning from scratch of one subarray
+- Step 2: Transfer learning of subarray two with the first subarray
+- Step 3: Combine two level results
+
+After that
+
+# Following the steps below to run the simulation
+
 
 If you have any problems with generating the figure, please contact [Yu Zhang](https://www.linkedin.com/in/yu-zhang-391275181/).
 
