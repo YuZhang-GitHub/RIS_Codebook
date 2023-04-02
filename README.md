@@ -15,12 +15,13 @@ Reconfigurable intelligent surfaces (RIS) are expected to play an important role
 7. Run `NFWB_BF_TTD_PS_hybrid_low_complexity_search_algorithm.m` in Matlab, which will generate the figure shown below.
 
 ![Figure](https://github.com/YuZhang-GitHub/NFWB_BF/blob/main/N_16.png)
-
 -->
 
 # Dataset structure
 
-As shown in the figure
+As shown in the figure below, we leverage [DeepMIMO](https://deepmimo.net/) dataset to generate the data used in this paper. To simulate the non-stationarity of the large surface, we create four _geographically distributed_ reflecting surfaces with each of them adopts a 64-element ULA. These surfaces maintain a distance of 1 meter between each other, and are aligned along the y-axis in the [`O1_60`](https://deepmimo.net/scenarios/o1-scenario/) scenario.
+
+![Figure](https://github.com/YuZhang-GitHub/RIS_Codebook/blob/master/deep_mimo_O1_60_distributed_LIS.png)
 
 If you have any problems with generating the figure, please contact [Yu Zhang](https://www.linkedin.com/in/yu-zhang-391275181/).
 
@@ -28,4 +29,3 @@ If you have any problems with generating the figure, please contact [Yu Zhang](h
 This code package is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). If you in any way use this code for research that results in publications, please cite our original article:
 > Y. Zhang and A. Alkhateeb, "[Learning Reflection Beamforming Codebooks for Arbitrary RIS and Non-Stationary Channels](https://arxiv.org/abs/2109.14909)," in arXiv preprint arXiv:2109.14909.
  
-![Figure](https://github.com/YuZhang-GitHub/RIS_Codebook/blob/master/deep_mimo_O1_60_distributed_LIS.png)
