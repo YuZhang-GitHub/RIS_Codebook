@@ -26,7 +26,7 @@ This is the simulation codes related to the following article: Y. Zhang and A. A
 
 # Simulation Structure
 
-In the paper, we propose a multi-level RIS codebook design solution to reduce the design complexity. As shown in the figure below, the distributed RISs consist of four RISs and we further divide each RIS into two subarrays. The design starts from subarray, then the RIS and finally the four RISs.
+<p align="justify"> In the paper, we propose a multi-level RIS codebook design solution to reduce the design complexity. As shown in the figure below, the distributed RISs consist of four RISs and we further divide each RIS into two subarrays. The design starts from subarray, then the RIS and finally the four RISs. </p>
 
 <!---
 ![Figure](https://github.com/YuZhang-GitHub/RIS_Codebook/blob/master/RISs.png)
@@ -35,15 +35,15 @@ In the paper, we propose a multi-level RIS codebook design solution to reduce th
   <img src="https://github.com/YuZhang-GitHub/RIS_Codebook/blob/master/RISs.png" alt="drawing" width="600"/>
 </p>
 
-Each of the folder corresponds to one RIS, comprising of two subarrays. A two-level learning is based on each folder
-- Step 1: Learning from scratch of one subarray
-- Step 2: Transfer learning of subarray two with the first subarray
-- Step 3: Combine two level results
+Corresponding to the designed solution, we have four subfolders named "LIS_x" in this repository. Each of the folder corresponds to one RIS, consisting of two subarrays. A two-level learning is based on each folder:
+- Step 1 (In folder `S1`): Learning from scratch of one subarray.
+- Step 2 (In folder `S2`): Transfer learning of the second subarray by initializing the network parameters with the trained first subarray's.
+- Step 3 (In folder `C1`): The second-level learning that combines the learning results of the two subarrays.
 
-After that
+After that, the final, i.e., the third-level learning is performed:
+- Step 4 (In folder `Comb_net`): The third-level learning that combines the learning results of the four RISs.
 
-# Following the steps below to run the simulation
-
+Note: At each step mentioned above, you just simply run `main.py` file.
 
 If you have any problems with generating the figure, please contact [Yu Zhang](https://www.linkedin.com/in/yu-zhang-391275181/).
 
