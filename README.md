@@ -35,14 +35,12 @@ This is the simulation codes related to the following article: Y. Zhang and A. A
   <img src="https://github.com/YuZhang-GitHub/RIS_Codebook/blob/master/RISs.png" alt="drawing" width="600"/>
 </p>
 
-<p align="justify"> Corresponding to the designed solution, we have four subfolders named "LIS_x" in this repository. Each of the folder corresponds to one RIS, consisting of two subarrays. A two-level learning is based on each folder: </p>
-
+Corresponding to the designed solution, we have four subfolders named "LIS_x" in this repository. Each of the folder corresponds to one RIS, consisting of two subarrays. A two-level learning is based on each folder:
 - Step 1 (In folder `S1`): Learning from scratch of one subarray.
 - Step 2 (In folder `S2`): Transfer learning of the second subarray by initializing the network parameters with the trained first subarray's.
 - Step 3 (In folder `C1`): The second-level learning that combines the learning results of the two subarrays.
   
 After that, the final, i.e., the third-level learning is performed:
-
 - Step 4 (In folder `Comb_net`): The third-level learning that combines the learning results of the four RISs.
 
 Note: At each step mentioned above, you just simply run `main.py` file.
