@@ -19,7 +19,7 @@ Reconfigurable intelligent surfaces (RIS) are expected to play an important role
 
 # Dataset structure
 
-As shown in the figure below, we leverage [DeepMIMO](https://deepmimo.net/) dataset to generate the data used in this paper. To simulate the non-stationarity of the large surface, we create four _geographically distributed_ reflecting surfaces with each of them adopts a 64-element ULA. These surfaces maintain a distance of 1 meter between each other, and are aligned along the y-axis in the [`O1_60`](https://deepmimo.net/scenarios/o1-scenario/) scenario.
+As shown in the figure below, we leverage [DeepMIMO](https://deepmimo.net/) dataset to generate the data used in this paper. To simulate the non-stationarity of the large surface, we create four _geographically distributed_ reflecting surfaces with each of them adopts a 64-element ULA. These surfaces maintain a distance of 1 meter between each other, and are aligned along the y-axis in the ["O1_60"](https://deepmimo.net/scenarios/o1-scenario/) scenario.
 
 ![Figure](https://github.com/YuZhang-GitHub/RIS_Codebook/blob/master/deep_mimo_O1_60_distributed_LIS.png)
 
