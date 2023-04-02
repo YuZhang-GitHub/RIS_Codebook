@@ -13,9 +13,10 @@ Reconfigurable intelligent surfaces (RIS) are expected to play an important role
 5. After it is finished, run `read_beams.py` in the same directory.
 6. Copy the generated file, i.e., `ULA_PS_only.mat` to the `td_searching` directory.
 7. Run `NFWB_BF_TTD_PS_hybrid_low_complexity_search_algorithm.m` in Matlab, which will generate the figure shown below.
--->
 
-[//]: # (![Figure](https://github.com/YuZhang-GitHub/NFWB_BF/blob/main/N_16.png))
+![Figure](https://github.com/YuZhang-GitHub/NFWB_BF/blob/main/N_16.png)
+
+-->
 
 If you have any problems with generating the figure, please contact [Yu Zhang](https://www.linkedin.com/in/yu-zhang-391275181/).
 
