@@ -1,5 +1,5 @@
 # Learning Reflection Beamforming Codebooks for Arbitrary RIS and Non-Stationary Channels
-<p align="justify"> This is the simulation codes related to the following article: Y. Zhang and A. Alkhateeb, "<a href="https://arxiv.org/abs/2109.14909">"Learning Reflection Beamforming Codebooks for Arbitrary RIS and Non-Stationary Channels</a>," in arXiv preprint arXiv:2109.14909. </p>
+<p align="justify"> This is the simulation codes related to the following article: Y. Zhang and A. Alkhateeb, "<a href="https://arxiv.org/abs/2109.14909">Learning Reflection Beamforming Codebooks for Arbitrary RIS and Non-Stationary Channels</a>," in arXiv preprint arXiv:2109.14909. </p>
 
 # Abstract of the Article
 
