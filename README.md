@@ -30,7 +30,9 @@ As detailed described in the paper, we propose a multi-level RIS codebook design
 <!---
 ![Figure](https://github.com/YuZhang-GitHub/RIS_Codebook/blob/master/RISs.png)
 -->
-<img src="https://github.com/YuZhang-GitHub/RIS_Codebook/blob/master/RISs.png" alt="drawing" width="200"/>
+<p align="center">
+  <img src="https://github.com/YuZhang-GitHub/RIS_Codebook/blob/master/RISs.png" alt="drawing" width="200"/>
+</p>
 
 Each of the folder corresponds to one RIS, comprising of two subarrays. A two-level learning is based on each folder
 - Step 1: Learning from scratch of one subarray
