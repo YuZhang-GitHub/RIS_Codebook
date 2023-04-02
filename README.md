@@ -18,15 +18,15 @@ This is the simulation codes related to the following article: Y. Zhang and A. A
 ![Figure](https://github.com/YuZhang-GitHub/NFWB_BF/blob/main/N_16.png)
 -->
 
-# Dataset structure
+# Dataset Structure
 
 <p align="justify"> As shown in the figure below, we leverage [DeepMIMO](https://deepmimo.net/) dataset to generate the data used in this paper. To simulate the non-stationarity of the large surface, we create four _geographically distributed_ reflecting surfaces with each of them employing a 64-element ULA. These surfaces maintain a distance of 1 meter between each other, and are aligned along the y-axis in the ["O1_60"](https://deepmimo.net/scenarios/o1-scenario/) scenario. The generated datasets are already included in this repository and can be found in each subfolder. </p>
 
 ![Figure](https://github.com/YuZhang-GitHub/RIS_Codebook/blob/master/deep_mimo_O1_60_distributed_LIS.png)
 
-# Simulation structure
+# Simulation Structure
 
-As detailed described in the paper, we propose a multi-level RIS codebook design architecture.
+In the paper, we propose a multi-level RIS codebook design solution to reduce the design complexity. As shown in the figure below, the distributed RISs consist of four RISs and we further divide each RIS into two subarrays. The design starts from subarray, then the RIS and finally the four RISs.
 
 <!---
 ![Figure](https://github.com/YuZhang-GitHub/RIS_Codebook/blob/master/RISs.png)
